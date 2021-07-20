@@ -1,0 +1,29 @@
+//The ZMapInfo for "Your project"
+
+//Custom things goes here
+
+DoomEdNums
+{
+	//You can add custom THING numbers here, starting from 15000 should not interfere with any other numbers
+	
+	15000 = //Custom Actor/Class name you have added
+	
+}
+
+
+
+//This is the information for the map/maps
+
+map MAP01 "TitleGoesHere"
+{	
+	next = MAPxx 			//Next map to load
+	secret = MAPxx 			//If you have a scecret map exit, otherwise leave blank/use same next map number 
+	sky1 = "SKYBOX NAME"	//If you want another skybox than standard. Note that the name can only be 8 characters long
+	par = 20				//The number of minutes to clear the level before a bad rating
+	music = MUSICTOPLAY		//Play any custom song from MUSIC folder OR a track not accociated with level number
+	ExitPic = "" 			//Custom exit level image, again can only be 8 characters long in name
+	AllowRespawn			//Simply to allow respawn in level rather than to load a savegame
+	Grinding_Polyobj		//Allow polyobjects to destroy corpses like normal doors/crushers/etc.
+}
+
+//Above are some examples as to what can be added here, plenty more things can be implemented
